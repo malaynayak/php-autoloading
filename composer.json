@@ -1,0 +1,28 @@
+{
+    "name": "malaynayak/php-autoloading",
+    "description": "Php autoloading",
+    "authors": [
+        {
+            "name": "Malay Nayak",
+            "email": "malay.kanta.nayak@gmail.com"
+        }
+    ],
+    "require": {
+        "malaynayak/drupal8-plugin": "dev-master"
+    },
+    "autoload": {
+      "classmap": [
+        "project/C.php",
+        "src"
+      ],
+      "psr-4": {
+        "App\\" : "psr"
+      }
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "git@github.com:malaynayak/drupal8-plugin.git"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "df1202f6ef34b09b28a2f0c13900970a",
+    "packages": [
+        {
+            "name": "malaynayak/drupal8-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/malaynayak/drupal8-plugin.git",
+                "reference": "efeedde6758fa701fb0510a91931bfe6ac0ae6ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/malaynayak/drupal8-plugin/zipball/efeedde6758fa701fb0510a91931bfe6ac0ae6ae",
+                "reference": "efeedde6758fa701fb0510a91931bfe6ac0ae6ae",
+                "shasum": ""
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Malay Nayak",
+                    "email": "malay.kanta.nayak@gmail.com"
+                }
+            ],
+            "description": "Demo Drupal8 Plugin",
+            "support": {
+                "source": "https://github.com/malaynayak/drupal8-plugin/tree/master",
+                "issues": "https://github.com/malaynayak/drupal8-plugin/issues"
+            },
+            "time": "2018-10-28T06:11:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "malaynayak/drupal8-plugin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
